@@ -23,5 +23,10 @@ public class Circle extends Shape {
 	public String getInfo() {
 		return super.getInfo()+","+radius;
 	}
+	
+	@Override
+	public void draw() {
+		System.out.println("Circle Draw!");
+	}
 
 }

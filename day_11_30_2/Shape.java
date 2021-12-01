@@ -1,6 +1,6 @@
 package day_11_30_2;
 
-public class Shape {
+abstract public class Shape {
 
 	private String color;
 	private int x1;
@@ -40,5 +40,8 @@ public class Shape {
 	public String getInfo() {
 		return color+", "+x1+", "+y1;
 	}
+	
+	//필수구현 메서드
+	abstract public void draw();
 
 }//end class

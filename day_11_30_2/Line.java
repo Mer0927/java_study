@@ -32,5 +32,11 @@ public class Line extends Shape {
 	public String getInfo() {
 		return super.getInfo()+", "+x2+", "+y2;
 	}
+	
+	@Override
+	public void draw() {
+		System.out.println("Line Draw!");
+	}
+	
 
 }//end class
